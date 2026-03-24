@@ -45,11 +45,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-.65in}
+\addtolength{\textheight}{1.3in}
 
 \urlstyle{same}
 
@@ -59,8 +59,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -69,16 +69,16 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-3pt}}
+    {#1 \vspace{-5pt}}
   }
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{-3pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*}\vspace{-12pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -102,7 +102,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -112,7 +112,7 @@
 
 %----------HEADING----------
 \begin{center}
-    \textbf{\Huge \scshape Hyungtae Lim} \\ \vspace{1pt}
+    \textbf{\LARGE \scshape Hyungtae Lim} \\ \vspace{1pt}
     \small
     \href{mailto:shapelim@mit.edu}{\underline{shapelim@mit.edu}} $|$
     \href{https://limhyungtae.github.io/hyungtae-lim/}{\underline{limhyungtae.github.io}} $|$
@@ -144,7 +144,7 @@
       {Postdoctoral Associate}{Apr. 2024 -- Present}
       {SPARK Lab, MIT (Advisor: Prof. Luca Carlone)}{Cambridge, MA}
       \resumeItemListStart
-        \resumeItem{Reduced multi-session map inconsistency in city-scale environments by building a large-scale multi-robot SLAM system enabling real-time 3D mapping across 10+ robots and sessions.}
+        \resumeItem{Reduced multi-session map inconsistency in city-scale environments by building a large-scale multi-robot SLAM system enabling real-time 3D mapping across ~8 robots and sessions.}
         \resumeItem{Accelerated research output by mentoring 5+ graduate and undergraduate researchers, contributing to 4+ published papers on 3D perception and autonomous mapping.}
         \resumeItem{Grew combined GitHub adoption to 4K+ stars by maintaining \href{https://github.com/MIT-SPARK/TEASER-plusplus}{TEASER++} \githubstars{2.1K}, \href{https://github.com/MIT-SPARK/Hydra}{Hydra} \githubstars{773}, \href{https://github.com/MIT-SPARK/KISS-Matcher}{KISS-Matcher} \githubstars{643}, \href{https://github.com/MIT-SPARK/VGGT-SLAM}{VGGT-SLAM} \githubstars{882}.}
       \resumeItemListEnd
@@ -154,7 +154,7 @@
       {Urban Robotics Lab, KAIST (Advisor: Prof. Hyun Myung)}{Daejeon, Korea}
       \resumeItemListStart
         \resumeItem{Improved localization robustness in dynamic scenes by developing real-time LiDAR-inertial and visual SLAM pipelines, deployed on 3+ mobile robot platforms.}
-        \resumeItem{Reduced dynamic-object-induced map corruption by designing deep learning perception modules for obstacle detection in crowded and unstructured environments.}
+        \resumeItem{Reduced dynamic-object-induced map corruption by leveraging deep learning perception modules for moving object segmentation in crowded and unstructured environments.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -175,34 +175,40 @@
 
 
 %-----------KEY OPEN-SOURCE PROJECTS-----------
+% NOTE(hlim): These open-source projects with GitHub stars demonstrate coding quality
+% and real-world adoption — leave this section fixed across applications.
+% Stars signal that others rely on your code, which is exactly what production teams want.
 \section{Key Open-Source Projects}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \href{https://github.com/MIT-SPARK/KISS-Matcher}{\textbf{KISS-Matcher}} \githubstars{643}\emph{ICRA'25}  $|$ Out-of-the-box fast and robust global point cloud registration for large-scale mapping. \\
+     \href{https://github.com/MIT-SPARK/VGGT-SLAM}{\textbf{VGGT-SLAM}} \githubstars{882} \emph{NeurIPS'25} $|$  -- Dense real-time RGB SLAM on SL(4) manifold; globally consistent 3D reconstruction. \\
+     \href{https://github.com/url-kaist/patchwork-plusplus}{\textbf{Patchwork++}} \githubstars{842} \emph{IROS'22} $|$  $~$100\,Hz LiDAR ground segmentation; deployed in AV and mobile robot production. \\
+     \href{https://github.com/LimHyungTae/ERASOR}{\textbf{ERASOR}} \githubstars{494} \emph{RA-L'21} $|$  -- ${\sim}$94\% dynamic-object artifact removal, enabling long-term autonomous navigation.
+    }}
+ \end{itemize}
+
+
+%-----------KEY RELEVANT PROJECTS-----------
+% NOTE(hlim): *** CUSTOMIZE THIS SECTION FOR EVERY APPLICATION. ***
+% Unlike open-source above (fixed), swap these entries to match each job description.
+%   Applying to AV perception team? -> Highlight 3D detection, segmentation, sensor fusion.
+%   Applying to mapping/localization? -> Highlight SLAM, HD map, loop closure projects.
+%   Applying to robot learning team?  -> Highlight RL, imitation learning, sim-to-real.
+% XYZ formula: "Accomplished [X] as measured by [Y], by doing [Z]."
+% Reference: https://www.sweresume.app/articles/faang-resume-guide/
+\section{Key Relevant Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\href{https://github.com/MIT-SPARK/KISS-Matcher}{\textbf{KISS-Matcher}} \githubstars{643} $|$ \emph{Point Cloud Registration}}{IEEE ICRA 2025}
+          {\href{https://github.com/your-org/project1}{\textbf{[e.g., Real-Time LiDAR SLAM System]}} $|$ \emph{[Category]}}{[Team / Year]}
           \resumeItemListStart
-            \resumeItem{Out-of-the-box fast and robust global point cloud registration pipeline; adopted as backbone for large-scale multi-session LiDAR SLAM across 10+ robots and sessions.}
+            \resumeItem{Reduced [X] by [Y]\% in city-scale environments by [Z]; deployed on [N]+ platforms at [scale].}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\href{https://github.com/MIT-SPARK/VGGT-SLAM}{\textbf{VGGT-SLAM}} \githubstars{882} $|$ \emph{Dense RGB SLAM}}{NeurIPS 2025}
+          {\href{https://github.com/your-org/project2}{\textbf{[e.g., 3D Object Detection Pipeline]}} $|$ \emph{[Category]}}{[Team / Year]}
           \resumeItemListStart
-            \resumeItem{Enabled production-grade dense 3D RGB mapping by optimizing trajectory estimation on the SL(4) manifold, achieving globally consistent real-time reconstruction.}
+            \resumeItem{Improved [X] recall by [Y]\% by [Z], processing at [N]\,Hz on [hardware] (e.g., NVIDIA Orin).}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\href{https://github.com/url-kaist/patchwork-plusplus}{\textbf{Patchwork++}} \githubstars{842} $|$ \emph{Ground Segmentation}}{IEEE/RSJ IROS 2022}
-          \resumeItemListStart
-            \resumeItem{Segmented drivable ground from 3D LiDAR at $>$100\,Hz with $<$1\% false-positive rate, deployed in AV and mobile robotics production pipelines across 5+ platforms.}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\href{https://github.com/LimHyungTae/ERASOR}{\textbf{ERASOR}} \githubstars{494} $|$ \emph{Static Map Building}}{IEEE RA-L 2021}
-          \resumeItemListStart
-            \resumeItem{Removed dynamic objects from LiDAR maps with ${\sim}$94\% precision, enabling high-fidelity static map building for long-term autonomous navigation.}
-          \resumeItemListEnd
-      % ---- PLACEHOLDER: add industry/work project below ----
-      % \resumeProjectHeading
-      %     {\textbf{[Project Name]} $|$ \emph{[Category]}}{[Company / Year]}
-      %     \resumeItemListStart
-      %       \resumeItem{Accomplished [X] as measured by [Y], by doing [Z].}
-      %     \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
@@ -224,9 +230,7 @@
      \textbf{2024} -- 1st Prize, HILTI SLAM Challenge in IEEE ICRA'24 \\
      \textbf{2023} -- Best Paper Award, IEEE RA-L (5 of 1,100 papers) \\
      \textbf{2023} -- 1st Prize, HILTI SLAM Challenge in IEEE ICRA'23 (63 international teams) \\
-     \textbf{2023} -- CES'23 Innovation Award (via technology transfer with HILLS Robotics) \\
-     \textbf{2022} -- 2nd Cash Prize, HILTI SLAM Challenge in IEEE ICRA'22 \\
-     \textbf{2020} -- Student Best Paper Award, ICCAS
+     \textbf{2023} -- CES'23 Innovation Award (via technology transfer with HILLS Robotics)
     }}
  \end{itemize}
 
@@ -239,15 +243,13 @@
     \resumeSubheading
       {Korea Advanced Institute of Science and Technology (KAIST)}{Daejeon, Korea}
       {Ph.D. in Electrical Engineering and Robotics Program}{Mar. 2020 -- Feb. 2023}
-      \resumeItemListStart
-        \resumeItem{Dissertation: ``Robust LiDAR SLAM for Autonomous Vehicles Leveraging Ground Segmentation''}
-      \resumeItemListEnd
     \resumeSubheading
       {Korea Advanced Institute of Science and Technology (KAIST)}{Daejeon, Korea}
       {M.S. in Electrical Engineering and Robotics Program}{Mar. 2018 -- Feb. 2020}
     \resumeSubheading
       {Korea Advanced Institute of Science and Technology (KAIST)}{Daejeon, Korea}
-      {B.S. in Mechanical Engineering}{Mar. 2013 -- Aug. 2018}
+      {B.S. in Mechanical Engineering}{Mar. 2013 -- Feb. 2028}
+
   \resumeSubHeadingListEnd
 
 
