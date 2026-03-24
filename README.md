@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>Awesome PhD CV Templates</h1>
+<h1>Awesome Ph.D. CV Templates</h1>
 
 <p><strong><em>LaTeX CV/resume templates for PhD students and researchers <br>—from ATS-optimized industry resumes to full academic CVs.</em></strong></p>
 
